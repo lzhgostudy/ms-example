@@ -12,8 +12,9 @@ module.exports = defineConfig({
         {
           name: "home",
           remotes: {
-            // "mscomponents": "mscomponents@https://devmsapi.officemate.cn/component/remoteEntry.js",
-            mscomponents: "mscomponents@http://localhost:8082/remoteEntry.js",
+            mscomponents:
+              "mscomponents@https://devmsapi.officemate.cn/component/remoteEntry.js",
+            // mscomponents: "mscomponents@http://localhost:8082/remoteEntry.js",
           },
           shared: {
             "ofs-ui": {
